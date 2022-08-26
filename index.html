@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="center">
+    <h1 id="title">Curso de programación</h1>
+    <p id="description">Gracias por preferirnos, llena el formulario para terminar la inscripción</p>
+</div>
+    <Form id="survey-form">
+      
+        <div class="form-group">
+    <label for="" id="name-label">Estudiante<span>*</span>
+        <input type="text" name="Nombre del estudiante" id="name" class="input" class="input" placeholder="Nombre del estudiante" required>
+    </label>
+    </div>
+    <div class="form-group">
+    <label for="" id="email-label">Correo<span>*</span>
+        <input type="email" name="Correo" id="email" class="input" value="@" placeholder="Correo" required >
+    </label>
+    
+    </div>
+    <div class="form-group">
+    <label for="" id="number-label" >Edad<span>*</span>
+        <input type="number" name="edad" id="number" class="input" class="input" placeholder="Edad" required min="18" max="100">
+    </label> 
+    </div>
+<div class="container">
+    <p>¿Recomendarías este curso a algún amigo?</p>
+    <label>
+        <input type="radio" name="recomendar" value="Sí"id="" class="label">
+        Sí
+    </label>
+    <label>
+        <input type="radio" name="recomendar" value="No"id="" class="label">
+        No
+    </label>
+    <label>
+        <input type="radio" name="recomendar" value="Tal vez"id="" class="label">
+        Tal vez
+    </label>
+</div>
+    <div>
+       <h2>Selecciona tu carrera</h2>
+    <select id="dropdown">
+        <option selected disabled>Elige tu carrera</option>
+        <option>Informática</option>
+        <option>Administración</option>
+        <option>Diseño</option>
+        <option>Publicidad</option>
+    </select>
+</div>
+<div class="container">
+    <h2>¿Qué materia te gustaría inscribir en el curso?</h2>
+    <label for="">
+    <input type="checkbox" name="materias" value="Matematicas" id="">
+    Matemáticas
+</label>
+<label> 
+    <input type="checkbox" name="materias" value="Algebra"id="">
+    Algebra
+</label>
+<label>
+    <input type="checkbox" name="materias" value="Educación ambiental"id="">
+    Educación ambiental
+</label>
+<label for="">
+    <input type="checkbox" name="materias" value="Educación física"id="">
+    Educación física
+</label>
+<label for="">
+    <input type="checkbox" name="materias" value="Investigación" id="">
+    Investigación
+</label>
+</div>
+<div>
+    <textarea name="Comentario" id="" placeholder="Comentarios adicionales"></textarea>
+</div>
+<button id="submit">ENVIAR</button>
+    </Form>
+</body>
+</html>
